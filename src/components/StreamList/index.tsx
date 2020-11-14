@@ -20,7 +20,7 @@ import {
 
 const StreamList: React.FC = () => {
   const StreamItem: React.FC = () => (
-    <StreamContainer>
+    <StreamContainer onPress={() => console.log('?')}>
       <StreamThumbnail source={streamThumbnail} />
 
       <StreamColumn>
